@@ -1,0 +1,767 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+
+/* main container */
+
+#mainContainer{
+    width: 100%;
+}
+
+/* topContainer */
+
+#topContainer{
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    background-color: #000;
+}
+
+/* logo */
+
+.logo{
+    color: #fff;
+    cursor: pointer;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* search container */
+
+.searchContainer ion-icon{
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    transition: all .4s ease-in-out;
+    color: #fff;
+}
+
+.searchContainer ion-icon:hover{
+    color: #fff;
+}
+
+.searchContainer input{
+    background-color: transparent;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #fff;
+}
+
+/* userBtnContainer */
+
+.userBtnContainer ion-icon{
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* add to cart button */
+
+#addToCart{
+    padding: 10px;
+    background-color: dodgerblue;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 15px;
+    transition: all .3s ease-in-out;
+}
+
+#addToCart:hover{
+    background-color: black;
+    color: #fff;
+}
+
+/* main container */
+
+#navbar a{
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+/* men products */
+
+#lifestyleProductContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+
+.lifestyleProductsTitle h2{
+    cursor: pointer;
+}
+
+.lifestyleProducts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+}
+
+.ftProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.featuredProductImage1{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw88c97b38/product_images/0097441920036NEW_00_010.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 400px;
+    cursor: pointer;
+}
+
+.featuredProductImage1:hover{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dwba9a4f6c/product_images/0097441920036NEW_01_010.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.featuredProductImage2{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw46b890b6/product_images/0097112540047NEW_00_010.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 400px;
+    cursor: pointer;
+}
+
+.featuredProductImage2:hover{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw94288ee6/product_images/0097112540047NEW_01_010.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.featuredProductImage3{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw4f533749/product_images/0097600620003NEW_00_010.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 400px;
+    cursor: pointer;
+}
+
+.featuredProductImage3:hover{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dwe541f821/product_images/0097600620003NEW_01_010.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.starContainer{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+/* winter collection */
+
+.winterProductsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 100px;
+}
+
+.winterProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.winterProductImage1{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw0fb12c9b/product_images/0201491920126NEW_00_816.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 400px;
+    cursor: pointer;
+}
+
+.winterProductImage1:hover{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw9a3fb413/product_images/0201491920126NEW_03_816.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.winterProductImage2{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dwe8b7464a/product_images/0201115090056NEW_00_003.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 400px;
+    cursor: pointer;
+}
+
+.winterProductImage2:hover{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw89500e27/product_images/0201115090056NEW_03_003.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.winterProductImage3{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw63000895/product_images/0200600270002NEW_00_046.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 400px;
+    cursor: pointer;
+}
+
+.winterProductImage3:hover{
+    background: url('https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw69984038/product_images/0200600270002NEW_01_046.jpg?sw=690&sh=1070&sm=fit');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+/* footer */ 
+
+  #footer{
+    padding: 20px 15px;
+    width: 100%;
+    height: 25rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    background-color: rgba(121,118,118,.1);
+  }
+  
+  #footer .FindStore-Email{
+    display: grid;
+    
+  }
+  
+  #footer h3{
+    margin: 25px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  
+  #footer a{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 1px;
+    justify-content: center;
+    transition: all .4s ease-in-out;
+  }
+  
+  #footer .storeLocator input{
+     padding: 10px;
+    font-size: 15px;
+  }
+  
+  #footer .storeLocator button{
+     padding: 10px;
+    font-size: 15px;
+    transition: all .4s ease-in-out;
+  }
+  
+  #footer .storeLocator button:hover{
+    color: white;
+    background-color: black;
+    
+  }
+  
+  #footer .email p{
+    margin: 10px;
+    font-size: 15px;
+    color: gray;
+    text-align: left;
+    width: 100%;
+  }
+  
+  #footer .email input{
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  #footer .email button{
+    padding: 10px;
+    font-size: 15px;
+    transition: all .4s ease-in-out;
+  }
+  
+  #footer .email button:hover{
+    color: white;
+    background-color: black;
+  }
+  
+  #footer a:hover{
+    color: black;
+  }
+  
+  #footer .appDownload .apps{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  #footer .appDownload .apps .image1{
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 200px;
+    background: url('https://www.pacsun.com/on/demandware.static/Sites-pacsun-Site/-/default/dwc764346f/images/app-store.svg');
+    background-position: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #footer .appDownload .apps .image2{
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 200px;
+    background: url('https://www.pacsun.com/on/demandware.static/Sites-pacsun-Site/-/default/dw3beeea59/images/google-play.svg');
+    background-position: cover;
+    background-repeat: no-repeat;
+  }
+
+    /* MEDIA QUERIES */
+
+/* max width = highest the width can go */
+/* min width = lowest the width can go */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: pink;
+    }
+
+    .lifestyleProducts{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 100px;
+    }
+
+    .winterProductsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 100px;
+    }
+
+    #addToCart{
+        margin: 20px;
+    }
+
+    #footer{
+        padding: 15px;
+        width: 100%;
+        font-size: 15px;
+        height: 55rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        align-content: center;
+        background-color: rgba(121,118,118,.1);
+      }
+
+      #footer .storeLocator{
+        width: 21rem;
+      }
+
+
+      #footer .appDownload{
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 15px;
+    }
+
+    #footer .apps{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #footer .storeLocator input {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    #footer .storeLocator button {
+        padding: 10px;
+        font-size: 10px;
+        transition: all .4s ease-in-out;
+    }
+
+      .email p{
+          color: #000;
+          margin: 10px;
+          font-size: 12px;
+          text-align: center;
+      }
+
+      #footer .email input {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    #footer .email button {
+        padding: 10px;
+        font-size: 10px;
+        transition: all .4s ease-in-out;
+    }
+
+    #footer .appDownload .apps {
+        display: flex;
+        padding: 0;
+        cursor: pointer;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+/* 700px and down */
+@media only screen and (max-width: 700px) {
+
+    body{
+        background-color: pink;
+    }
+
+    .lifestyleProducts{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 100px;
+    }
+
+    .winterProductsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 100px;
+    }
+
+    #addToCart{
+        margin: 20px;
+    }
+
+    #footer{
+        padding: 15px;
+        width: 100%;
+        font-size: 15px;
+        height: 55rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        align-content: center;
+        background-color: rgba(121,118,118,.1);
+      }
+
+      #footer .storeLocator{
+        width: 21rem;
+      }
+
+
+      #footer .appDownload{
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 15px;
+    }
+
+    #footer .apps{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #footer .storeLocator input {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    #footer .storeLocator button {
+        padding: 10px;
+        font-size: 10px;
+        transition: all .4s ease-in-out;
+    }
+
+      .email p{
+          color: #000;
+          margin: 10px;
+          font-size: 12px;
+          text-align: center;
+      }
+
+      #footer .email input {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    #footer .email button {
+        padding: 10px;
+        font-size: 10px;
+        transition: all .4s ease-in-out;
+    }
+
+    #footer .appDownload .apps {
+        display: flex;
+        padding: 0;
+        cursor: pointer;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: magenta;
+    }
+
+    .lifestyleProducts{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 100px;
+    }
+
+    .winterProductsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 100px;
+    }
+
+    #addToCart{
+        margin: 20px;
+    }
+
+    #footer{
+        padding: 15px;
+        width: 100%;
+        font-size: 15px;
+        height: 45rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        align-content: center;
+        background-color: rgba(121,118,118,.1);
+      }
+
+      .email p{
+          display: flex;
+          justify-content: center;
+      }
+
+      
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: blue;
+    }
+
+    .lifestyleProducts{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 100px;
+    }
+
+    .winterProductsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 100px;
+    }
+
+    #addToCart{
+        margin: 20px;
+    }
+
+    #footer{
+        padding: 15px;
+        width: 100%;
+        font-size: 15px;
+        height: 45rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        align-content: center;
+        background-color: rgba(121,118,118,.1);
+      }
+
+      .email p{
+          display: flex;
+          justify-content: center;
+      }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 972px) {
+    body{
+        background-color: tan;
+    }
+
+    .lifestyleProducts{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 100px;
+    }
+
+    .winterProductsContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 100px;
+    }
+
+    #footer{
+        padding: 15px;
+        width: 100%;
+        font-size: 15px;
+        height: 45rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        align-content: center;
+        background-color: rgba(121,118,118,.1);
+      }
+
+      .email p{
+          display: flex;
+          justify-content: center;
+      }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1242px) {
+    body{
+        background-color: purple;
+    }
+
+    #footer{
+        padding: 15px;
+        width: 100%;
+        font-size: 15px;
+        height: 30rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+        align-content: center;
+        background-color: rgba(121,118,118,.1);
+      }
+
+      .email p{
+          text-align: center;
+      }
+}
